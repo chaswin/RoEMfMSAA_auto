@@ -12,4 +12,8 @@ random_1 = np.log(np.random.uniform(m_global_random_low, m_global_random_up, 1))
 ### FTO_MSA代码暂不开源，敬请期待
 本包原版仅用了单线程建图，10万条序列跑一次要5h左右。 \
 本包新版内部改为多线程，效率有很大提升，10万条序列跑一次只需1h多。
+### 相关文献和作者请联系如下
+FTO-MSA算法的相关信息请参考以下文献： \
+[1]赖潇.片段拓扑序引导的大规模相似基因多序列比对算法[D].吉林大学,2022.DOI:10.27162/d.cnki.gjlin.2022.001149. \
+[2]Xiao Lai ,Haixin Luan ,Pu Tian .Accurate Multiple Sequence Alignment of Ultramassive Genome Sets.[J].bioRxiv,2024:p.2024.09.22.613454
 ### 目前本文件夹下仅提供实验结果数据表格
